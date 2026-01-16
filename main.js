@@ -170,3 +170,36 @@
                 }
                 fun();
 
+    function login(){
+                       
+                     return new Promise((resolve, reject) => {
+                            
+                        let success = false;
+
+                         setTimeout(() => {
+                             
+                            if(success){
+                                  
+                                resolve("Login successfull");
+                            }
+                            else{
+                                  resolve(" Failed rrequest");
+                            }
+                             
+                         }, 2000);
+                     })
+                }
+
+
+                async  function fun() {
+                          
+                    try{
+                      let ans = await login();
+                      console.log(ans);
+                    }
+                    catch(error){
+                          console.log(error)
+                    }
+                }
+                fun();
+
