@@ -203,3 +203,16 @@
                 }
                 fun();
 
+//DOM document object model
+
+let EL = document.getElementByID("count);
+console.log( El);
+
+let count = 0;
+
+function fun(){
+       count++;
+    EL,innerText = count;
+
+}
+fun();
