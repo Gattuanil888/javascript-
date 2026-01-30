@@ -1,0 +1,272 @@
+BASIC WEB DEVELOPMENT (WITH ANSWERS)
+1️⃣ What is web development?
+
+Web development is the process of building websites and web applications.
+
+2️⃣ Difference between website and web application?
+
+Website → only information (static)
+
+Web application → user interaction (login, forms)
+
+3️⃣ What is client and server?
+
+Client → browser (Chrome)
+
+Server → computer that sends data
+
+4️⃣ What is HTTP and HTTPS?
+
+HTTP → communication rules
+
+HTTPS → secure and encrypted
+
+5️⃣ What happens when you type a URL?
+
+Browser sends request
+
+Server processes
+
+Server sends response
+
+Browser displays page
+
+6️⃣ Frontend vs Backend?
+
+Frontend → UI (HTML, CSS, JS)
+
+Backend → logic & DB (Node, Java)
+
+7️⃣ What is API?
+
+API connects frontend and backend.
+
+8️⃣ What is JSON?
+
+JSON is a data format to send data.
+
+9️⃣ What is SPA?
+
+SPA loads page once, content updates dynamically.
+
+🔟 What is REST API?
+
+REST API uses HTTP methods:
+GET, POST, PUT, DELETE
+
+🟨 JAVASCRIPT (WITH ANSWERS)
+1️⃣ What is JavaScript?
+
+JavaScript is a programming language used to make web pages interactive.
+
+2️⃣ var vs let vs const?
+
+var → old, function scope
+
+let → block scope
+
+const → cannot reassign
+
+3️⃣ Data types in JavaScript?
+
+Number, String, Boolean, Null, Undefined, Object
+
+4️⃣ What is hoisting?
+
+JS moves variable and function declarations to the top.
+
+5️⃣ What is closure?
+
+A function that remembers outer variables.
+
+6️⃣ == vs ===?
+
+== → value check
+
+=== → value + type check
+
+7️⃣ What is callback?
+
+A function passed to another function.
+
+8️⃣ What is promise?
+
+Used to handle async operations.
+
+9️⃣ async / await?
+
+Cleaner way to write async code.
+
+🔟 What is event loop?
+
+It manages async tasks in JavaScript.
+
+🟦 REACT (WITH ANSWERS)
+1️⃣ What is React?
+
+React is a JavaScript library for building UI.
+
+2️⃣ Why React?
+
+Fast
+
+Component-based
+
+Reusable code
+
+3️⃣ What is component?
+
+Reusable UI block.
+
+4️⃣ JSX?
+
+HTML inside JavaScript.
+
+5️⃣ What is state?
+
+Data inside component that can change.
+
+6️⃣ What are props?
+
+Data passed from parent to child.
+
+7️⃣ useState?
+
+Hook to manage state.
+
+8️⃣ useEffect?
+
+Used for API calls and side effects.
+
+9️⃣ Virtual DOM?
+
+Copy of real DOM → faster updates.
+
+🔟 Why React is fast?
+
+Because it updates only changed parts.
+
+🟩 NODE.JS (WITH ANSWERS)
+1️⃣ What is Node.js?
+
+Node.js runs JavaScript on server.
+
+2️⃣ Is Node.js single-threaded?
+
+Yes, but uses event loop to handle many users.
+
+3️⃣ What is npm?
+
+Package manager for Node.js.
+
+4️⃣ What is event loop in Node?
+
+Handles async operations.
+
+5️⃣ What is non-blocking I/O?
+
+Node does not wait for task completion.
+
+6️⃣ What is module?
+
+Reusable code file.
+
+7️⃣ What is REST API in Node?
+
+API built using HTTP methods.
+
+8️⃣ How frontend talks to backend?
+
+Using HTTP requests.
+
+🟧 EXPRESS.JS (WITH ANSWERS)
+1️⃣ What is Express?
+
+Express is a Node.js framework for APIs.
+
+2️⃣ Why Express?
+
+Simple, fast, easy routing.
+
+3️⃣ What is routing?
+
+Mapping URL to function.
+
+4️⃣ What is middleware?
+
+Runs between request and response.
+
+5️⃣ What is req and res?
+
+req → client request
+
+res → server response
+
+6️⃣ app.use()?
+
+Used to apply middleware.
+
+7️⃣ express.json()?
+
+Reads JSON request body.
+
+8️⃣ GET vs POST?
+
+GET → fetch data
+
+POST → send data
+
+9️⃣ Status codes?
+
+200 → OK
+
+404 → Not found
+
+500 → Server error
+
+🔟 MVC?
+
+Model → data
+
+View → UI
+
+Controller → logic
+
+🔐 DATABASE + SECURITY (ANSWERS)
+
+SQL → structured data
+
+NoSQL → flexible data
+
+Authentication → who you are
+
+Authorization → what you can access
+
+JWT → token-based login
+
+CORS → API security rule
+
+🎤 PROJECT / HR (READY ANSWERS)
+How login works?
+
+Frontend sends credentials → backend verifies → token generated → user logged in.
+
+Why Cognizant?
+
+Cognizant gives good learning, real projects, and career growth.
+
+What challenges you faced?
+
+Handling errors, API integration, and debugging.
+
+🔥 LAST-MINUTE ONE-LINE ANSWERS
+
+JavaScript is single-threaded
+
+React uses Virtual DOM
+
+Node.js is non-blocking
+
+Express simplifies backend
+
+API connects frontend & backend
